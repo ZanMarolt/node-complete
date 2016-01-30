@@ -1,0 +1,136 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator',
+1 verbose cli   'cg-angular' ]
+2 info using npm@3.3.12
+3 info using node@v5.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData generator
+8 silly fetchPackageMetaData cg-angular
+9 silly fetchNamedPackageData generator
+10 silly mapToRegistry name generator
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/generator
+14 silly fetchNamedPackageData cg-angular
+15 silly mapToRegistry name cg-angular
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/cg-angular
+19 verbose request uri https://registry.npmjs.org/generator
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 11:24:24 AM
+22 verbose request id 26d9032f24b60f74
+23 http request GET https://registry.npmjs.org/generator
+24 verbose request uri https://registry.npmjs.org/cg-angular
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 11:24:24 AM
+27 http request GET https://registry.npmjs.org/cg-angular
+28 http 200 https://registry.npmjs.org/generator
+29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   etag: '"8QP1LOV8FBXQ4ESJJM1W5YXU7"',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=300',
+29 verbose headers   'content-length': '15734',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Sat, 30 Jan 2016 10:24:24 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-fra1228-FRA',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1454149464.307945,VS0,VE173',
+29 verbose headers   vary: 'Accept' }
+30 silly get cb [ 200,
+30 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly get     etag: '"8QP1LOV8FBXQ4ESJJM1W5YXU7"',
+30 silly get     'content-type': 'application/json',
+30 silly get     'cache-control': 'max-age=300',
+30 silly get     'content-length': '15734',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Sat, 30 Jan 2016 10:24:24 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-fra1228-FRA',
+30 silly get     'x-cache': 'MISS',
+30 silly get     'x-cache-hits': '0',
+30 silly get     'x-timer': 'S1454149464.307945,VS0,VE173',
+30 silly get     vary: 'Accept' } ]
+31 verbose get saving generator to /home/zanmarolt/.npm/registry.npmjs.org/generator/.cache.json
+32 http 404 https://registry.npmjs.org/cg-angular
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '2',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Sat, 30 Jan 2016 10:24:25 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1454149464.308391,VS0,VE691' }
+34 silly get cb [ 404,
+34 silly get   { 'content-type': 'application/json',
+34 silly get     'cache-control': 'max-age=0',
+34 silly get     'content-length': '2',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Sat, 30 Jan 2016 10:24:25 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '0',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-fra1238-FRA',
+34 silly get     'x-cache': 'MISS',
+34 silly get     'x-cache-hits': '0',
+34 silly get     'x-timer': 'S1454149464.308391,VS0,VE691' } ]
+35 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/cg-angular
+35 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+35 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+35 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+35 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+35 silly fetchPackageMetaData     at emitTwo (events.js:88:13)
+35 silly fetchPackageMetaData     at Request.emit (events.js:173:7)
+35 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+35 silly fetchPackageMetaData     at emitOne (events.js:83:20)
+35 silly fetchPackageMetaData     at Request.emit (events.js:170:7)
+35 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+35 silly fetchPackageMetaData  error for cg-angular { [Error: Registry returned 404 for GET on https://registry.npmjs.org/cg-angular] pkgid: 'cg-angular', statusCode: 404, code: 'E404' }
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/cg-angular
+41 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+41 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+41 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+41 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+41 verbose stack     at emitTwo (events.js:88:13)
+41 verbose stack     at Request.emit (events.js:173:7)
+41 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+41 verbose stack     at emitOne (events.js:83:20)
+41 verbose stack     at Request.emit (events.js:170:7)
+41 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+42 verbose statusCode 404
+43 verbose pkgid cg-angular
+44 verbose cwd /home/zanmarolt/Documents/nodejs
+45 error Linux 3.19.0-32-generic
+46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "generator" "cg-angular"
+47 error node v5.2.0
+48 error npm  v3.3.12
+49 error code E404
+50 error 404 Registry returned 404 for GET on https://registry.npmjs.org/cg-angular
+50 error 404
+50 error 404 'cg-angular' is not in the npm registry.
+50 error 404 You should bug the author to publish it (or use the name yourself!)
+50 error 404
+50 error 404 Note that you can also install from a
+50 error 404 tarball, folder, http url, or git url.
+51 verbose exit [ 1, true ]
